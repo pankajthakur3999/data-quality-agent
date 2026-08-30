@@ -1,8 +1,5 @@
 # Probability Decision Record
 
-*Illustrative worked example — replace with real numbers once test data is
-built in Step 9.*
-
 ## Case: CustomerBookings batch, 42% row-count drop during migration
 
 ### The situation, in plain words
