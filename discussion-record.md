@@ -1,0 +1,6 @@
+# Discussion Record
+
+| Platform | Community or account | Link | My first contribution | Human answer | My next answer | Design change |
+| -------- | --------------------- | ---- | ---------------------- | ------------- | ---------------- | -------------- |
+| Reddit | r/AZURE | https://www.reddit.com/r/AZURE/comments/1w1gbmq/on_prem_to_azure_migration_problem/ | Asked how to tell IR-side issues from source-data issues, and how to distinguish a watermark lag caused by a VM/network blip from one caused by a real source job failure | AccomplishedEmperor: checks IR logs for heartbeat gaps first — if heartbeats are clean but files land half-written or with odd row counts, it's usually the source side, not the IR | [reply pending] | Add "IR heartbeat log status" as a new input signal, separate from watermark lag — lets the agent split "IR problem" from "source problem" instead of lumping both into one "transient vs defect" guess |
+|          |                        |      |                         |               |                   |                |
