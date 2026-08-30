@@ -1,4 +1,4 @@
-# Week 1 AI-Native Project — Data Quality Agent
+# Data Quality Agent
 ### Scenario: On-prem to Azure migration, Medallion architecture
 
 ## 1. Project objective
